@@ -1,0 +1,10 @@
+<div class="button-list-container" *ngFor="let actionType of actionTypes">
+  <h3 class="action-type">{{ actionType | uppercase }}</h3>
+  <div *ngFor="let action of actionsList[actionType]">
+    <app-custom-button mat-raised-button color={{action.color}} (click)="handleClick(actionType, action.key)">
+      {{ action.name }}
+    </app-custom-button>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
