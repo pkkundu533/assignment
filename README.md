@@ -1,9 +1,9 @@
 ## Installation Steps
 ### angular installation
-Please refer to [https://angular.io/cli]
+Please refer to https://angular.io/cli
 
 ### To get the code in your local 
-Clone [https://github.com/pkkundu533/assignment]
+Clone https://github.com/pkkundu533/assignment
 
 ### Install required packages
 run **_npm install_** 
