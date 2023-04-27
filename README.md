@@ -2,8 +2,16 @@
 ### angular installation
 Please refer to [https://angular.io/cli]
 
+### To get the code in your local 
 Clone [https://github.com/pkkundu533/assignment]
 
-## Building the Application
+### Install required packages
+run _npm install_ 
 
-## How to run the Application Locally
+## Building the Application
+To build the application run _npm build_
+
+## How to run the application locally
+To run the application locally run _npm start_
+
+now open http://localhost:4200
