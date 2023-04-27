@@ -6,12 +6,12 @@ Please refer to [https://angular.io/cli]
 Clone [https://github.com/pkkundu533/assignment]
 
 ### Install required packages
-run _npm install_ 
+run **_npm install_** 
 
 ## Building the Application
-To build the application run _npm build_
+To build the application run **_npm run build_**
 
 ## How to run the application locally
-To run the application locally run _npm start_
+To run the application locally run **_npm start_**
 
 now open http://localhost:4200
