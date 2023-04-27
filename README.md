@@ -14,4 +14,4 @@ To build the application run **_npm run build_**
 ## How to run the application locally
 To run the application locally run **_npm start_**
 
-now open http://localhost:4200
+In your browser open http://localhost:4200
