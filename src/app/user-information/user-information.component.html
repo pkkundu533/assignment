@@ -1,0 +1,17 @@
+<div class="user-info-wrapper">
+    <div class="user-card d-flex column" *ngFor="let user of userInformation">
+        <span class="user-data">Name: <span>{{user.name}}</span></span>
+        <span class="user-data"> username: <span>{{user.username}}</span></span>
+        <span class="user-data">Email: <span>{{user.email}}</span></span>
+        <span class="user-data">Address:</span>
+        <div class="address-card d-flex column">
+            <span class="user-data city-data">City: <span>{{user.address.city}}</span></span>
+            <span class="user-data">Street: <span>{{user.address.street}}</span></span>
+            <span class="user-data">Suite: <span>{{user.address.suite}}</span></span>
+            <span class="user-data">zip Code: <span>{{user.address.zipcode}}</span></span>
+        </div>
+        <span class="user-data">Phone Number: <span>{{user.phone}}</span></span>
+        <span class="user-data">Company: <span>{{user.company.name}}</span></span>
+    </div>
+    
+</div>

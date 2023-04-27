@@ -1,0 +1,27 @@
+.user-card {
+    border: 2px solid #365a99;
+    border-radius: 6px;
+    width: fit-content;
+    font-size: 14px;
+    margin: 15px;
+    background-color: #d0def7;
+}
+
+.user-data {
+    margin: 6px;
+
+}
+
+.city-data {
+    margin-top: 0 !important;
+}
+
+.address-card {
+    padding-left: 12px;
+}
+
+.user-info-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    color: #252856;
+}

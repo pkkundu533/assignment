@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+p{
+    margin: 0;
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+
+.bold {
+    font-weight: bold;
+}

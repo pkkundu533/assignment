@@ -1,0 +1,25 @@
+<div class="hedaer-menu d-flex">
+  <div class="left-menu d-flex flex-grow">
+    <p class="tab" [ngClass]="{'bold': activeTab=='userinformation'}" (click)="onTabChange('userinformation')">User Information</p>
+    <span class="divider">|</span>
+    <p class="tab" [ngClass]="{'bold': activeTab=='aboutUs'}" (click)="onTabChange('aboutUs')">About Us</p>
+    <span class="divider">|</span>
+    <p class="tab" [ngClass]="{'bold': activeTab=='contact'}" (click)="onTabChange('contact')">Contact</p>
+  </div>
+  <div class="right-menu">
+    {{getDate()}}
+  </div>
+</div>
+
+
+<div *ngIf="activeTab=='userinformation'" class="user-info">
+  <app-user-information></app-user-information>
+</div>
+
+<div *ngIf="activeTab=='aboutUs'" class="aboutus">
+  This is a demo application.
+</div>
+
+<div *ngIf="activeTab=='contact'" class="contact-info">
+  <span>Email: abc@abc.com</span>
+</div>
